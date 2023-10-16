@@ -11,7 +11,8 @@ namespace Calculos
         static void Main(string[] args)
         {
             Console.WriteLine("Aplicação Cálculos");
-
+            Console.WriteLine($"4 + 2 = {Aritmetica.somar(4, 2)}");
+            Console.WriteLine($"4 - 2 = {Aritmetica.subtrair(4, 2)}");
             Console.ReadKey();
         }
     }
