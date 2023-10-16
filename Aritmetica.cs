@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Calculos
 {
-    // implementa operaçoes aritmeticas
-    internal class Aritmetica
+    /// <summary>
+    /// implementa operaçoes aritmeticas
+    /// </summary>
+    internal static class Aritmetica
     {
         /// <summary>
         /// tipo de conversão de temperatura a executar.
@@ -22,7 +24,7 @@ namespace Calculos
         /// Operação Soma   
         /// </summary>
         /// <returns>Retorna a soma de 2 numeros.</returns>
-        public int somar( int x, int y)
+        public static int somar( int x, int y)
         {
             return x + y;
         }
@@ -30,15 +32,15 @@ namespace Calculos
        /// Operação de subtração
        /// </summary>
        /// <returns>Retorna o resultado da subtração de 2 numeros.</returns>
-        public int subtrair(int x, int y)
+        public static int subtrair(int x, int y)
         {
             return x - y;
         }
         /// <summary>
         /// Converter temperatura
         /// </summary>
-       0 /// <returns></returns>
-        public double ConverterTemperatura(ConversaoTemperatura conversao, double temperatura)
+        /// <returns></returns>
+        public static double ConverterTemperatura(ConversaoTemperatura conversao, double temperatura)
         {
             if(conversao == ConversaoTemperatura.CelsiusFahrenheit)
             {
