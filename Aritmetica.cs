@@ -34,6 +34,10 @@ namespace Calculos
         {
             return x - y;
         }
+        /// <summary>
+        /// Converter temperatura
+        /// </summary>
+       0 /// <returns></returns>
         public double ConverterTemperatura(ConversaoTemperatura conversao, double temperatura)
         {
             if(conversao == ConversaoTemperatura.CelsiusFahrenheit)
