@@ -17,7 +17,7 @@ namespace Calculos
         /// </summary>
         public enum ConversaoTemperatura
         {
-            Nulo = 0;
+            Nulo = 0,
             CelsiusFahrenheit,
             FahrenheitCelsius
         }
