@@ -26,7 +26,15 @@ namespace Calculos
        /// <returns>Retorna o resultado da subtração de 2 numeros.</returns>
         public static int subtrair(int x, int y)
         {
-            return x - y;
+            return x - y;           
+        }
+        /// <summary>
+        /// Operação de multiplicaçao
+        /// </summary>
+        /// <returns>Retorna o resultado da multiplicação de 2 numeros.</returns>
+        public static int multiplicar(int x, int y)
+        {
+            return x * y;
         }
        
     }
